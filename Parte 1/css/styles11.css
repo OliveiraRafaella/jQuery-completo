@@ -1,0 +1,18 @@
+span{
+    background: rgb(206, 205, 207);
+    border: 3.5px solid black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+p{
+    border: 5px dashed black;
+    background: rgb(206, 205, 207);
+    text-align:justify;
+}
+
+textarea{
+    border: 3px solid black;
+    top: 50%;
+    left: 50%;
+}

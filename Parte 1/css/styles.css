@@ -1,0 +1,14 @@
+table#filmes{
+    border: 1px solid #606060;
+    border-spacing: 0px; 
+
+}
+table#filmes td,th{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+#filmes th{
+    background-color:  #000000;
+    color: aliceblue;
+    text-align: center;
+}
