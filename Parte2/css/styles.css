@@ -1,0 +1,36 @@
+table#filmes{
+    border: 1px solid #606060;
+    border-spacing: 0px; 
+
+}
+table#filmes td,th{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+#filmes th{
+    background-color:  #000000;
+    color: aliceblue;
+    text-align: center;
+}
+
+.impar{
+    /*border: 5px dashed black;*/
+    background: #CCC;
+}
+
+.destaque{
+    background:#000000;
+    color: #fff;
+}
+
+.tooltip{
+    /*width: 180px;
+    padding: 2px 4px;
+    margin-top: 25px;
+    border: 1px solid #000000;
+    color: #000000;
+    background: rgb(190, 57, 57);
+    position: absolute;*/
+
+    background-color: #ffffff;
+}
