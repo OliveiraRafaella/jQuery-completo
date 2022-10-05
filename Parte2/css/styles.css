@@ -1,21 +1,26 @@
 table#filmes{
     border: 1px solid #606060;
     border-spacing: 0px; 
-
+    margin: auto;
 }
 table#filmes td,th{
     border: 1px solid #000000;
     padding: 10px;
 }
-#filmes th{
+.sub th{
+    background: #ccc ;
+    text-align: center;
+}
+
+ #filmes thead th{
     background-color:  #000000;
     color: aliceblue;
     text-align: center;
 }
-
+ 
 .impar{
     /*border: 5px dashed black;*/
-    background: #CCC;
+    background: aliceblue;
 }
 
 .destaque{
@@ -33,4 +38,11 @@ table#filmes td,th{
     position: absolute;*/
 
     background-color: #ffffff;
+}
+
+img.maismenos{
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
 }
