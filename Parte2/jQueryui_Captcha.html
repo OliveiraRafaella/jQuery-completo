@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula47</title>
+    <title>Aula51</title>
 
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -27,7 +27,8 @@
     <script type="text/javascript" src="jqueryui/jquery-ui.min.js"></script>
     
     <!-- Plugin -->
-    <script type="text/javascript" src="js/plugins/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="js/plugins/buttonCaptcha/jquery.buttonCaptcha.min.js"></script>
+    <link rel="stylesheet" href="js/plugins/buttonCaptcha/jquery.buttonCaptcha.styles.css">
 
     <style>
     
@@ -35,25 +36,15 @@
     </style>
     <script>
         $(function () {            
-            $("#data").mask("99/99/9999");
-            $("#telefone").mask("(99) 99999-9999");
+            $("#demo").buttonCaptcha({
+                codeWord: "rafa"
+            });
+
         });
     </script>
 </head>
 
 <body>
-    <form id="formulario">
-        <fieldset>
-            <div>
-                <label for="data">Data</label><br>
-                <input type="text" name="data" id="data">
-            </div>
-
-            <div>
-                <label for="telefone">Telefone</label>
-                <input type="text" name="telefone" id="telefone">
-            </div>
-        </fieldset>
-    </form>
+    <button id="demo" type="button" onclick="alert('protegido!')">Botão</button>
 </body>
 </html>
